@@ -74,7 +74,7 @@ Open http://localhost:8501. To run the tests: `pip install pytest`, then `pytest
 
 ### Retrain the model (optional)
 
-The trained model is already in `models/`. To rebuild it, run the script below. It downloads the dataset to `data/` the first time.
+The trained model is already in `models/`. To rebuild it, run the script below. It trains on the dataset in `data/` (included in the repo; see [data/README.md](data/README.md) for source and licence).
 
 ```bash
 python train_model.py
